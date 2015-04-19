@@ -1,6 +1,8 @@
 <html>
 <BODY BGCOLOR="#8B0000">
-
+<center>
+<a href="main.html">
+<img src="SampleLogo.jpg" width="1000" height="180" alt="" /></a>
 <style type="text/css"><!--
 a:link {COLOR:blue; TEXT-DECORATION:none}
 a:active {COLOR:red; TEXT-DECORATION:none}
@@ -41,16 +43,18 @@ var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenu
 <tr><td>
 <form>
 				<p><h4><center><font face="century gothic" color = "white">LOG-IN PAGE</center></h4>
-		<table>
-			<tr>
-				<td><font face="century gothic" color = "white">E-mail Address:</td>
-				<td><input type="text" name="e-add"></td>
-			</tr>
-			<tr>
-				<td><font face="century gothic" color = "white">Password:</td>
-				<td><input type="password" name="password1"></td>
-			</tr>
-		</table>
+		<body>
+		<form action="C:\Users\Albert\Documents\GitHub\SEM2_4CSC\SEM2\Server\src\ExamplePackage\LoginServlet">
+
+			Username: 		
+			<input type="text" name="un"/><br>		
+		
+			Password:
+			<input type="password" name="pw"/>
+			
+			<input type="submit" value="submit">			
+		
+		</form>
 		<br></form>
 		<form  method="link" action="confirmation.html" >
 		<center>
